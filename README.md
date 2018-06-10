@@ -2,7 +2,7 @@
 
 An object-oriented PHP library for creating a simple blockchain easily.
 
-Original code (august 2015) by Marty Anstey (https://marty.anstey.ca/), on [Github](https://github.com/rhondle/BlockChain). 
+Original code (august 2015) by Marty Anstey (https://marty.anstey.ca/), on [Github](https://github.com/rhondle/BlockChain).  
 The code has been improved and adapted to an object-oriented library.
 
 ## Characteristics

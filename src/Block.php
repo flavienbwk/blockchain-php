@@ -1,6 +1,6 @@
 <?php
 
-namespace flavienbwk\blockchain_php;
+namespace flavienbwk\BlockchainPHP;
 
 class Block {
 
