@@ -1,0 +1,22 @@
+{
+    "name": "flavienbwk/blockchain-php",
+    "description": "An object-oriented PHP library for creating a blockchain easily.",
+    "keywords": ["php", "blockchain", "oop"],
+    "type": "package",
+    "homepage": "https://github.com/flavienbwk/blockchain-php",
+    "license": "MIT",
+    "authors": [{
+            "name": "Flavien Berwick", 
+            "email": "flavien@berwick.fr"
+        }],
+    "require": {
+        "php": "^7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "flavienbwk\\BlockchainPHP\\": "src/"
+        }
+    },
+    "version": "1.0.0",
+    "minimum-stability": "dev"
+}
