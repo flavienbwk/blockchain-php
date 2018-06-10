@@ -1,4 +1,7 @@
 # PHP Blockchain
+<p align="center">
+<a href="#backers" alt="MIT License"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"/></a>
+</p>
 
 An object-oriented PHP library for creating a simple blockchain easily.
 
