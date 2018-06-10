@@ -22,7 +22,7 @@ composer require flavienbwk/blockchain-php
 
 ### Adding a block.
 
-Our blockchain will be saved in the `blockchain.dat` file.
+Our blockchain will be saved in the `blockchain.dat` file for the example.
 
 ````php
 require 'vendor/autoload.php';
@@ -42,6 +42,13 @@ $block->getPosition();  // Returns the height/position of the block in the block
 $block->getJson();      // Returns a JSON associative array with all the data of the block.
 // ...
 // Go to /src/Block.php to see all the getters.
+````
+
+You can get the data of one block by its hash or previous hash block :
+
+````php
+$Blockchain->getBlockByHash("blockchain.dat", "INSERT_THE_BLOCK_HASH_HERE");
+$Blockchain->getBlockByPrevHash("blockchain.dat", "INSERT_THE_BLOCK_HASH_HERE");
 ````
 
 ### Printing all your blockchain.
