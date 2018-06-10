@@ -1,7 +1,7 @@
 <?php
 
-namespace flavienbwk\blockchain_php;
-use flavienbwk\blockchain_php\Block;
+namespace flavienbwk\BlockchainPHP;
+use flavienbwk\BlockchainPHP\Block;
 
 class Blockchain {
 
