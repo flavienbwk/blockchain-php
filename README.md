@@ -38,6 +38,7 @@ $block->hasError();     // Returns true or false if there was an error while add
 $block->getMessage();   // Returns the error message.
 $block->getHash();      // Returns the hash (SHA256) of the block.
 $block->getPrevHash();  // Returns the hash (SHA256) of the block added before this one.
+$block->getData();      // Returns the data stored in the block.
 $block->getPosition();  // Returns the height/position of the block in the blockchain.
 $block->getJson();      // Returns a JSON associative array with all the data of the block.
 // ...
