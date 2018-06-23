@@ -17,6 +17,6 @@
             "flavienbwk\\BlockchainPHP\\": "src/"
         }
     },
-    "version": "1.0.2",
+    "version": "1.0.2.1",
     "minimum-stability": "dev"
 }
