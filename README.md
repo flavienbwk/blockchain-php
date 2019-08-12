@@ -64,7 +64,7 @@ $all = $Blockchain->getBlockchain("blockchain.dat");
 var_dump($all);
 ````
 
-As 3 blocks has been added, it will display :
+As 3 blocks have been added, it will display :
 
 ````php
 [  
